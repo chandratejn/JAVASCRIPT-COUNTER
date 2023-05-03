@@ -1,0 +1,68 @@
+body{
+    background-color:black;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Roboto-Thin.ttf);
+  }
+  .d1{
+    width:100vw;
+    margin-top:60px;
+    margin-left:30px;
+
+  }
+h1{
+    color:white;
+    font-family: myFirstFont;
+}
+/* p{
+    color:rgb(210, 94, 94);
+    font-family: myFirstFont;
+} */
+/* .buttons{
+
+    justify-content: space-between;
+}  */
+.b1{
+    margin-right:5px;
+}
+.b2{
+    margin-right:5px;
+    margin-left:5px;
+}
+.b3{
+    margin-right:5px;
+    margin-left:5px;
+}
+.under{
+    display:inline;
+    padding-bottom: 10px;
+            border-bottom-style: solid;
+            border-bottom-width: 0.1px;
+            width: fit-content;
+    color:white;
+    font-family: myFirstFont;
+}
+.counter-minus{
+    background-color: white;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.counter-plus{
+     background-color: white;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.counter-clear{
+    color:white;
+    background-color: black;
+    border:0.1px solid white;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
